@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond:ital,wght@0,600;1,500&display=swap');
+body{
+    background-color: rgb(241, 237, 227);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+nav ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container{
+    min-height: 70vh;
+    color: rgb(241, 237, 227);
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    width: 70%;
+    margin:25px auto;
+    background: black;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 130px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#myProgressBar{
+    width: 75%;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor:pointer;
+}
+.songitemcontainer{
+    margin: 15px 0;
+}
+.songitem {
+    height: 50px;
+    display: flex;
+    margin: 10px 0;
+    width: 200%;
+    align-items: center;
+    background-color: rgb(241, 237, 227);
+    border-radius: 10px;
+    color: black;
+}
+.songitem img{
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+}
+.songitem span{
+    margin:0 5px;
+}
+.timestamp i{
+    cursor:pointer;
+}
+.songinfo {
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: row;
+}
+.songinfo img{
+    margin-top: 2px 0;
+    height: 70px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
